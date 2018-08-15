@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Suites">
+
+    <test name = "AllTests">
+        <classes>
+            <class name = "tests.suit.RunnerAllTests" />
+        </classes>
+    </test>
+
+    <test name = "SmokeTests">
+        <classes>
+            <class name = "tests.suit.RunnerSmokeTests" />
+        </classes>
+    </test>
+
+</suite>
